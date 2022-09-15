@@ -3,7 +3,7 @@
 
 Ce dépôt `GitLab` contient un  projet codé en`C` pour lequel la compilation, les tests... ont été automatisés.
 
-Le code métier de ce projet se base sur les structures de données et les algorithmes  vus en programmation au Semestre 6. Il sert à analyser des vols aériens aux Etats-Unis et affiche différents commandes demander par l'utilisateur. 
+Le code de ce projet se fonde sur les structures de données et les algorithmes vus en programmation avancée au Semestre 6. Il sert à analyser des vols aériens aux Etats-Unis et affiche différents commandes demander par l'utilisateur. 
 
 ## Contenu du dépôt
 
