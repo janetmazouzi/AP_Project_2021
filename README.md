@@ -48,12 +48,12 @@ It analises local flights data in the USA in 2014 and allows the user to make re
 
 ## Repository's Content
 
-- `README.md` The one you are reading right now.
-- `Makefile` permet la compilation du code métier (cible `main`) et des tests unitaires (cible `tests`)
-- `.clang-format` contient les règles de formatage de code
-- le répertoire `includes` contient les déclarations de fonctions
-- le répertoire `src` contient les sources du projet
-- le répertoire `data` contient  les fichiers `cvs` à analyser et aussi les testes unitaires réaliser .
+- `README.md` The one you are currently reading.
+- `Makefile` compile all the files.
+- `.clang-format` the coding format rules
+- the `includes` directory contains the functions' declarations.
+- the`src` directory contains the source code files.
+- the `data` directory contains the CVS files and the Unit Testing.
 
 ## The requests
 Here are the few requests the user can ask the application
@@ -77,9 +77,3 @@ trouve un ou plusieurs itinéraires entre deux aéroports à une date donnée (l
 - a date : M-J   example _`12-4`_
 - a IATA code : AAA for an airport, AA for an Airline
 - a limit to display : limit=x example _`limit=3`_
-
-
-
-
-
-
