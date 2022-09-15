@@ -3,18 +3,18 @@
 
 Ce dépôt `GitLab` contient un  projet codé en`C` pour lequel la compilation, les tests... ont été automatisés.
 
-Le code de ce projet se fonde sur les structures de données et les algorithmes vus en programmation avancée au Semestre 6. Il sert à analyser des vols aériens aux Etats-Unis et affiche différents commandes demander par l'utilisateur. 
+Le code de ce projet se fonde sur les structures de données et les algorithmes vus en programmation avancée au Semestre 6. Il sert à analyser des vols aériens aux Etats-Unis et affiche différentes commandes demander par l'utilisateur. 
 
 ## Contenu du dépôt
 
 - `README.md` le fichier que vous être en train de lire
-- `Makefile` permet la compilation du code métier (cible `main`) et des tests unitaires (cible `tests`)
+- `Makefile` permet la compilation du code (cible `main`)
 - `.clang-format` contient les règles de formatage de code
 - le répertoire `includes` contient les déclarations de fonctions
 - le répertoire `src` contient les sources du projet
-- le répertoire `data` contient  les fichiers `cvs` à analyser et aussi les testes unitaires réaliser .
+- le répertoire `data` contient  les fichiers `cvs` à analyser
 
-# Les requêtesde accessibles à l'utilisateur
+# Les requêtes accessibles à l'utilisateur
 
 - `show-airports <airline_id>`  : affiche tous les aéroports depuis lesquels la compagnie aérienne `<airline_id>` opère des vols
 - `show-airlines <port_id>`: affiche les compagnies aériens qui ont des vols qui partent de l'aéroport `<port_id>`
@@ -53,7 +53,7 @@ It analises local flights data in the USA in 2014 and allows the user to make re
 - `.clang-format` the coding format rules
 - the `includes` directory contains the functions' declarations.
 - the`src` directory contains the source code files.
-- the `data` directory contains the CVS files and the Unit Testing.
+- the `data` directory contains the CVS files
 
 ## The requests
 Here are the few requests the user can ask the application
